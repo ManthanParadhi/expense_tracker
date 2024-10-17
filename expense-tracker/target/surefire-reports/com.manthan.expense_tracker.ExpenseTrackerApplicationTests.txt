@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.manthan.expense_tracker.ExpenseTrackerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.034 s -- in com.manthan.expense_tracker.ExpenseTrackerApplicationTests
