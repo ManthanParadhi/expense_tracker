@@ -6,18 +6,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.manthan.expense_tracker.model.Transaction;
-import com.manthan.expense_tracker.repository.TransactionRepository;
+import com.manthan.expense_tracker.repository.TransactionRepo;
 
 @Service
 public class TransactionService {
 	@Autowired
-	private TransactionRepository transactionRepository;
+	private TransactionRepo transactionRepo;
 	
 	public List<Transaction> getAllTransactions(){
-		return transactionRepository.findAll();
+		return transactionRepo.findAll();
 	}
 	
 	public Transaction saveTransaction(Transaction transaction) {
-		return transactionRepository.save(transaction);
+		return transactionRepo.save(transaction);
 	}
 }
